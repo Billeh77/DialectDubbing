@@ -4,14 +4,14 @@ An advanced AI-powered dubbing system that automatically converts South Park epi
 
 ## Features
 
-- ** Video Processing**: Extracts audio from MP4 files using FFmpeg
-- ** Dialogue Isolation**: Separates speech from background music/effects using HT-Demucs
-- ** Transcription**: High-accuracy transcription with WhisperX
-- ** Speaker Diarization**: Identifies different speakers using PyAnnote
-- ** Translation**: Context-aware translation to Lebanese Arabic using GPT-4
-- ** Speech Synthesis**: Natural-sounding Arabic speech using ElevenLabs
-- ** Audio Remixing**: Combines new voices with original background audio
-- ** Video Muxing**: Creates final dubbed MP4 with synchronized audio
+- **Video Processing**: Extracts audio from MP4 files using FFmpeg
+- **Dialogue Isolation**: Separates speech from background music/effects using HT-Demucs
+- **Transcription**: High-accuracy transcription with WhisperX
+- **Speaker Diarization**: Identifies different speakers using PyAnnote
+- **Translation**: Context-aware translation to Lebanese Arabic using GPT-4
+- **Speech Synthesis**: Natural-sounding Arabic speech using ElevenLabs
+- **Audio Remixing**: Combines new voices with original background audio
+- **Video Muxing**: Creates final dubbed MP4 with synchronized audio
 
 ## System Architecture
 
@@ -204,7 +204,7 @@ export LOG_LEVEL=DEBUG
 python main.py
 ```
 
-## 📊 Performance Optimization
+## Performance Optimization
 
 ### GPU Memory Management
 - Use CUDA 12.4+ for better memory efficiency
