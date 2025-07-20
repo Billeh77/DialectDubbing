@@ -1,0 +1,20 @@
+# Basic dependencies that should install without conflicts
+pandas>=2.2.0
+numpy>=1.24.0
+scipy>=1.11.0
+tqdm>=4.66.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+psutil>=5.9.0
+
+# Audio/Video Processing
+pydub>=0.25.1
+soundfile>=0.12.1
+ffmpeg-python>=0.2.0
+
+# API clients
+openai>=1.26.0
+elevenlabs>=1.0.0
+
+# Optional UI
+gradio>=4.44.0 

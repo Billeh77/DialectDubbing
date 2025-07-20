@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+assets/*.mp4
+assets/*.avi
+assets/*.mov
+assets/*.mkv
+output/
+separated/
+temp/
+temp-*
+*.log
+
+# API Keys and secrets
+config_local.py
+secrets.py
+.env*
+!.env.template
+
+# Model cache
+models/
+.cache/
+*.pkl
+*.pth
+*.pt
+
+# Audio/Video files
+*.wav
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.m4a
+*.flac
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+.temp/ 

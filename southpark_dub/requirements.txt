@@ -1,0 +1,45 @@
+# Core ML/AI framework (macOS compatible - versions compatible with Demucs)
+torch>=2.0.0,<2.1.0
+torchaudio>=0.8.0,<2.1.0
+torchvision>=0.15.0,<0.17.0
+
+# WhisperX and Speech Recognition
+whisperx>=3.1.1
+faster-whisper>=1.1.0
+ctranslate2>=4.4.0
+
+# Speaker Diarization
+pyannote.audio>=3.3.0
+pyannote.core>=5.0.0
+pyannote.database>=5.1.0
+pyannote.metrics>=3.2.0
+
+# Source Separation (Demucs)
+git+https://github.com/facebookresearch/demucs.git
+
+# Audio/Video Processing
+moviepy>=1.0.3
+pydub>=0.25.1
+soundfile>=0.12.1
+librosa>=0.10.1
+ffmpeg-python>=0.2.0
+
+# AI APIs
+openai>=1.26.0
+elevenlabs>=1.0.0
+
+# Data Processing
+pandas>=2.2.0
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Utilities
+tqdm>=4.66.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Optional UI
+gradio>=4.44.0
+
+# System utilities
+psutil>=5.9.0 
