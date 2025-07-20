@@ -2,24 +2,24 @@
 
 An advanced AI-powered dubbing system that automatically converts South Park episodes from English to Lebanese Arabic. This system uses cutting-edge AI models to extract dialogue, translate it contextually, and synthesize natural-sounding Arabic speech with character-specific voices.
 
-## ✨ Features
+## Features
 
-- **🎞️ Video Processing**: Extracts audio from MP4 files using FFmpeg
-- **🎤 Dialogue Isolation**: Separates speech from background music/effects using HT-Demucs
-- **✍️ Transcription**: High-accuracy transcription with WhisperX
-- **👥 Speaker Diarization**: Identifies different speakers using PyAnnote
-- **🌍 Translation**: Context-aware translation to Lebanese Arabic using GPT-4
-- **🎙️ Speech Synthesis**: Natural-sounding Arabic speech using ElevenLabs
-- **🎚️ Audio Remixing**: Combines new voices with original background audio
-- **📼 Video Muxing**: Creates final dubbed MP4 with synchronized audio
+- ** Video Processing**: Extracts audio from MP4 files using FFmpeg
+- ** Dialogue Isolation**: Separates speech from background music/effects using HT-Demucs
+- ** Transcription**: High-accuracy transcription with WhisperX
+- ** Speaker Diarization**: Identifies different speakers using PyAnnote
+- ** Translation**: Context-aware translation to Lebanese Arabic using GPT-4
+- ** Speech Synthesis**: Natural-sounding Arabic speech using ElevenLabs
+- ** Audio Remixing**: Combines new voices with original background audio
+- ** Video Muxing**: Creates final dubbed MP4 with synchronized audio
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 Input MP4 → Audio Extraction → Dialogue Isolation → Transcription → Translation → Speech Synthesis → Audio Remixing → Video Muxing → Final MP4
 ```
 
-## 📋 Requirements
+## Requirements
 
 ### System Requirements
 - Python 3.8+
@@ -33,7 +33,7 @@ Input MP4 → Audio Extraction → Dialogue Isolation → Transcription → Tran
 - **ElevenLabs API Key**: For speech synthesis
 - **HuggingFace Token**: For PyAnnote speaker diarization
 
-## 🚀 Installation
+## Installation
 
 ### 1. Clone and Setup
 ```bash
@@ -90,7 +90,7 @@ southpark_dub/
 └── requirements.txt             # Dependencies
 ```
 
-## 🎯 Usage
+## Usage
 
 ### Method 1: Command Line Interface
 
@@ -221,7 +221,7 @@ python main.py
 - Batch process multiple episodes
 - Cache transcriptions to avoid re-processing
 
-## 🧪 Testing
+## Testing
 
 ### Unit Tests
 ```bash
@@ -236,7 +236,7 @@ python -m modules.isolate_dialogue test_input.wav test_output.wav
 python main.py assets/sample.mp4
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature-name`
@@ -244,7 +244,7 @@ python main.py assets/sample.mp4
 4. Add tests for new functionality
 5. Submit a pull request
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 Typical processing times for a 22-minute episode:
 - Audio Extraction: ~30 seconds
@@ -257,18 +257,18 @@ Typical processing times for a 22-minute episode:
 
 **Total: ~25-40 minutes per episode**
 
-## 🔒 Security & Privacy
+## Security & Privacy
 
 - API keys are stored locally and not transmitted
 - Temporary files are cleaned up automatically
 - No data is stored on external servers (except API calls)
 - All processing is done locally
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **OpenAI**: For GPT-4 translation capabilities
 - **ElevenLabs**: For high-quality speech synthesis
@@ -276,7 +276,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Facebook Research**: For Demucs source separation
 - **OpenAI Whisper Team**: For WhisperX transcription
 
-## 📞 Support
+## Support
 
 For issues and questions:
 1. Check the [Troubleshooting](#-troubleshooting) section
@@ -284,7 +284,7 @@ For issues and questions:
 3. Create a new issue with detailed logs
 4. Join our Discord community (link in repository)
 
-## 🔄 Updates
+## Updates
 
 The system is actively maintained. Check for updates regularly:
 ```bash
@@ -294,4 +294,4 @@ pip install -r requirements.txt --upgrade
 
 ---
 
-**⚠️ Disclaimer**: This project is for educational and research purposes. Please respect copyright laws and obtain proper permissions before dubbing copyrighted content. 
+**Disclaimer**: This project is for educational and research purposes. Please respect copyright laws and obtain proper permissions before dubbing copyrighted content. 
